@@ -1,0 +1,22 @@
+{
+  "plugins": ["react", "react-hooks", "import", "prettier"],
+  "extends": ["next/core-web-vitals", "wesbos"],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["~","./src"]
+        ],
+        "extensions": [".ts", ".js", ".jsx", ".json", ".node"]
+      }
+    }
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {"devDependencies": true}
+    ],
+    "react/prop-types": "off",
+    "global-require": "off"
+  }
+}

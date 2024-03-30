@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "annguyen144",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint-config-wesbos": "^4.0.1",

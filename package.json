@@ -1,10 +1,10 @@
 {
-  "name": "common-ui",
+  "name": "@annguyen144/common-ui",
   "version": "1.0.0",
   "description": "The common components that can be reused in multiple places in project.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && webpack"
   },
   "keywords": [],
   "repository": {

@@ -5,3 +5,5 @@
 /.pnp
 .pnp.js
 /.idea
+
+/dist

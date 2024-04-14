@@ -1,5 +1,5 @@
 {
-  "name": "@annguyen144/common-ui",
+  "name": "ba-market-common-ui",
   "version": "1.0.0",
   "description": "The common components that can be reused in multiple places in project.",
   "main": "dist/index.js",
@@ -22,16 +22,28 @@
     "stylelint-scss": "^6.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
     "autoprefixer": "^10.4.16",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.1",
     "daisyui": "^4.4.24",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.29.0",
-    "postcss": "^8.4.32",
+    "mini-css-extract-plugin": "^2.8.1",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^9.5.5",
+    "style-loader": "^4.0.0",
     "tailwindcss": "^3.4.0",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   }
 }
